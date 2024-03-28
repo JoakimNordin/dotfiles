@@ -1,2 +1,10 @@
+# neovim aliases
 alias "vim"="nvim"
 alias "vi"="nvim"
+
+# eza config
+alias ld="eza -al --only-dirs --icons --time-style long-iso"
+alias ll="eza --all --long --header --icons=never --git --group-directories-first --git-repos-no-status --git-repos --icons --time-style long-iso"
+
+# zoxide
+eval "$(zoxide init bash --cmd j)"

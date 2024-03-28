@@ -8,3 +8,6 @@ alias ll="eza --all --long --header --icons=never --git --group-directories-firs
 
 # zoxide
 eval "$(zoxide init bash --cmd j)"
+
+# tmuxifier
+alias "iac"="tmuxifier load-session iac"
